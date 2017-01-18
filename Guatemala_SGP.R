@@ -52,4 +52,4 @@ outputSGP(Guatemala_SGP)
 
 ### save results
 
-#save(Guatemala_SGP, file="Data/Guatemala_SGP.Rdata")
+save(Guatemala_SGP, file="Data/Guatemala_SGP.Rdata")
