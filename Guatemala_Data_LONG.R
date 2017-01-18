@@ -32,4 +32,4 @@ Guatemala_Data_LONG[is.na(SCALE_SCORE), VALID_CASE:="INVALID_CASE"]
 
 ### Save Data
 
-save(Guatemala_Data_LONG, file="Data/Guatemala_Data_LONG")
+save(Guatemala_Data_LONG, file="Data/Guatemala_Data_LONG.Rdata")

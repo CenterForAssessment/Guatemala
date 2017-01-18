@@ -32,7 +32,7 @@ Guatemala_SGP <- analyzeSGP(Guatemala_SGP,
 
 ### combineSGP
 
-#Guatemala_SGP<-combineSGP(Guatemala_SGP)
+Guatemala_SGP<-combineSGP(Guatemala_SGP)
 
 
 ### summarizeSGP
