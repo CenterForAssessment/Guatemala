@@ -43,7 +43,7 @@ Guatemala_Data_LONG[,ACHIEVEMENT_LEVEL_ORIGINAL:=NULL]
 ### Invalidate Cases
 
 Guatemala_Data_LONG[is.na(SCALE_SCORE), VALID_CASE:="INVALID_CASE"]
-Guatemala_Data_LONG[is.na(GRADE), VALID_CASE:="INVALID_CASE"]
+Guatemala_Data_LONG[is.na(GRADE) | GRADE=="4", VALID_CASE:="INVALID_CASE"]
 setkey(Guatemala_Data_LONG, VALID_CASE, CONTENT_AREA, YEAR, ID, GRADE, SCALE_SCORE)
 setkey(Guatemala_Data_LONG, VALID_CASE, CONTENT_AREA, YEAR, ID)
 Guatemala_Data_LONG[which(duplicated(Guatemala_Data_LONG, by=key(Guatemala_Data_LONG)))-1, VALID_CASE:="INVALID_CASE"]
