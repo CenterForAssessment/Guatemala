@@ -42,7 +42,7 @@ Guatemala_SGP<-combineSGP(Guatemala_SGP)
 
 ### visualizeSGP
 
-visualizeSGP(Guatemala_SGP, plot.types=c("growthAchievementPlot", "studentGrowthPlot"), sgPlot.demo.report=TRUE))
+visualizeSGP(Guatemala_SGP, plot.types=c("growthAchievementPlot", "studentGrowthPlot"), sgPlot.demo.report=TRUE)
 
 
 ### outputSGP
