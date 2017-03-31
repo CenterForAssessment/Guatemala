@@ -1,0 +1,176 @@
+
+Started prepareSGP Friday March 31 09:55:20 2017
+
+
+	prepareSGP(
+		 data = Guatemala_Data_LONG
+		create.additional.variables = FALSE )
+
+Finished prepareSGP Friday March 31 09:55:20 2017 in 0.129 Seconds 
+
+
+Started analyzeSGP Friday March 31 09:55:20 2017
+
+
+	analyzeSGP(
+		 sgp_object = Guatemala_SGP
+		sgp.percentiles = TRUE
+		sgp.projections = FALSE
+		sgp.projections.lagged = FALSE
+		sgp.percentiles.baseline = FALSE
+		sgp.projections.baseline = FALSE
+		sgp.projections.lagged.baseline = FALSE )
+
+	NOTE: CSEMs are required in 'SGPstateData' (either as a data.frame of CSEMs or as a variable name of CSEMsin @Data) to simulate SGPs for confidence interval calculations. SGP standard errors will not be calculated.
+	Started studentGrowthPercentiles: Friday March 31 09:55:20 2017
+		Content Area: READING, Year: 2015, Grade Progression: 2, 3  (N=1,445)
+	Finished studentGrowthPercentiles: Friday March 31 09:55:22 2017 in 1.652 Seconds
+
+	Started studentGrowthPercentiles: Friday March 31 09:55:22 2017
+		Content Area: READING, Year: 2015, Grade Progression: 1, 2  (N=1,402)
+	Finished studentGrowthPercentiles: Friday March 31 09:55:24 2017 in 1.617 Seconds
+
+	Started studentGrowthPercentiles: Friday March 31 09:55:24 2017
+		Content Area: READING, Year: 2015, Grade Progression: 0, 1  (N=1,452)
+	Finished studentGrowthPercentiles: Friday March 31 09:55:25 2017 in 1.482 Seconds
+
+	Started studentGrowthPercentiles: Friday March 31 09:55:25 2017
+		Content Area: READING, Year: 2016, Grade Progression: 2, 3, 4  (N=1,084)
+	Finished studentGrowthPercentiles: Friday March 31 09:55:28 2017 in 2.791 Seconds
+
+	Started studentGrowthPercentiles: Friday March 31 09:55:28 2017
+		Content Area: READING, Year: 2016, Grade Progression: 1, 2, 3  (N=1,110)
+	Finished studentGrowthPercentiles: Friday March 31 09:55:30 2017 in 2.404 Seconds
+
+	Started studentGrowthPercentiles: Friday March 31 09:55:30 2017
+		Content Area: READING, Year: 2016, Grade Progression: 0, 1, 2  (N=1,093)
+	Finished studentGrowthPercentiles: Friday March 31 09:55:32 2017 in 1.777 Seconds
+
+	Started studentGrowthPercentiles: Friday March 31 09:55:32 2017
+		Content Area: READING, Year: 2016, Grade Progression: 0, 1  (N=1,161)
+	Finished studentGrowthPercentiles: Friday March 31 09:55:33 2017 in 0.688 Seconds
+
+Finished analyzeSGP Friday March 31 09:55:37 2017 in 16.8 Seconds 
+
+Started combineSGP Friday March 31 09:55:37 2017
+	NOTE: No baseline referenced SGP results available in SGP slot. No baseline referenced SGP results will be merged.
+	NOTE: No SGP projections available in SGP slot. No current year student growth projection targets will be produced.
+	NOTE: No SGP baseline projections available in SGP slot. No current year baseline student growth projection targets will be produced.
+	NOTE: No SGP lagged projections available in SGP slot. No student growth projection targets will be produced.
+	NOTE: No SGP lagged baseline projections available in SGP slot. No baseline referenced student growth projection targets will be produced.
+Finished combineSGP Friday March 31 09:55:37 2017 in 0.049 Seconds 
+
+
+Started visualizeSGP Friday March 31 09:55:37 2017 
+
+Started growthAchievementPlot in visualizeSGP Friday March 31 09:55:37 2017 
+
+Finished growthAchievementPlot in visualizeSGP Friday March 31 09:55:51 2017 in 14.2 Seconds 
+
+Started studentGrowthPlot in visualizeSGP Friday March 31 09:55:51 2017 
+
+
+Started prepareSGP Friday March 31 11:18:25 2017
+
+
+	prepareSGP(
+		 data = Guatemala_Data_LONG
+		create.additional.variables = FALSE )
+
+Finished prepareSGP Friday March 31 11:18:25 2017 in 0.098 Seconds 
+
+
+Started analyzeSGP Friday March 31 11:18:25 2017
+
+
+	analyzeSGP(
+		 sgp_object = Guatemala_SGP
+		sgp.percentiles = TRUE
+		sgp.projections = FALSE
+		sgp.projections.lagged = FALSE
+		sgp.percentiles.baseline = FALSE
+		sgp.projections.baseline = FALSE
+		sgp.projections.lagged.baseline = FALSE )
+
+	NOTE: CSEMs are required in 'SGPstateData' (either as a data.frame of CSEMs or as a variable name of CSEMsin @Data) to simulate SGPs for confidence interval calculations. SGP standard errors will not be calculated.
+	Started studentGrowthPercentiles: Friday March 31 11:18:25 2017
+		Content Area: READING, Year: 2015, Grade Progression: 2, 3  (N=1,445)
+	Finished studentGrowthPercentiles: Friday March 31 11:18:26 2017 in 0.922 Seconds
+
+	Started studentGrowthPercentiles: Friday March 31 11:18:26 2017
+		Content Area: READING, Year: 2015, Grade Progression: 1, 2  (N=1,402)
+	Finished studentGrowthPercentiles: Friday March 31 11:18:27 2017 in 0.864 Seconds
+
+	Started studentGrowthPercentiles: Friday March 31 11:18:27 2017
+		Content Area: READING, Year: 2015, Grade Progression: 0, 1  (N=1,452)
+	Finished studentGrowthPercentiles: Friday March 31 11:18:28 2017 in 0.655 Seconds
+
+	Started studentGrowthPercentiles: Friday March 31 11:18:28 2017
+		Content Area: READING, Year: 2016, Grade Progression: 2, 3, 4  (N=1,084)
+	Finished studentGrowthPercentiles: Friday March 31 11:18:29 2017 in 1.184 Seconds
+
+	Started studentGrowthPercentiles: Friday March 31 11:18:29 2017
+		Content Area: READING, Year: 2016, Grade Progression: 1, 2, 3  (N=1,110)
+	Finished studentGrowthPercentiles: Friday March 31 11:18:31 2017 in 1.448 Seconds
+
+	Started studentGrowthPercentiles: Friday March 31 11:18:31 2017
+		Content Area: READING, Year: 2016, Grade Progression: 0, 1, 2  (N=1,093)
+	Finished studentGrowthPercentiles: Friday March 31 11:18:32 2017 in 1.244 Seconds
+
+	Started studentGrowthPercentiles: Friday March 31 11:18:32 2017
+		Content Area: READING, Year: 2016, Grade Progression: 0, 1  (N=1,161)
+	Finished studentGrowthPercentiles: Friday March 31 11:18:33 2017 in 0.649 Seconds
+
+Finished analyzeSGP Friday March 31 11:18:38 2017 in 12.5 Seconds 
+
+Started combineSGP Friday March 31 11:18:38 2017
+	NOTE: No baseline referenced SGP results available in SGP slot. No baseline referenced SGP results will be merged.
+	NOTE: No SGP projections available in SGP slot. No current year student growth projection targets will be produced.
+	NOTE: No SGP baseline projections available in SGP slot. No current year baseline student growth projection targets will be produced.
+	NOTE: No SGP lagged projections available in SGP slot. No student growth projection targets will be produced.
+	NOTE: No SGP lagged baseline projections available in SGP slot. No baseline referenced student growth projection targets will be produced.
+Finished combineSGP Friday March 31 11:18:38 2017 in 0.062 Seconds 
+
+
+Started visualizeSGP Friday March 31 11:18:38 2017 
+
+Started growthAchievementPlot in visualizeSGP Friday March 31 11:18:38 2017 
+
+Finished growthAchievementPlot in visualizeSGP Friday March 31 11:18:56 2017 in 18.4 Seconds 
+
+Started studentGrowthPlot in visualizeSGP Friday March 31 11:18:56 2017 
+
+Finished studentGrowthPlot in visualizeSGP Friday March 31 11:19:50 2017 in 53.8 Seconds 
+
+Finished visualizeSGP Friday March 31 11:19:50 2017 in 1 Minute, 12 Seconds 
+
+
+Started outputSGP Friday March 31 11:19:50 2017: Files produced from outputSGP saved in 'Data'
+
+
+
+	outputSGP(
+		 sgp_object = Guatemala_SGP )
+
+	Started LONG data production in outputSGP Friday March 31 11:19:50 2017
+	Finished LONG data production in outputSGP Friday March 31 11:19:51 2017 in 0.49 Seconds 
+
+	Started LONG FINAL YEAR data production in outputSGP Friday March 31 11:19:51 2017
+	Finished LONG FINAL YEAR data production in outputSGP Friday March 31 11:19:51 2017 in 0.259 Seconds 
+
+	Started WIDE data production in outputSGP Friday March 31 11:19:51 2017
+	Finished WIDE data production in outputSGP Friday March 31 11:19:51 2017 in 0.367 Seconds 
+
+Finished outputSGP Friday March 31 11:19:51 2017 in 1.159 Seconds 
+
+
+Started prepareSGP Friday March 31 11:30:52 2017
+
+
+	prepareSGP(
+		 data = Guatemala_Data_LONG )
+
+	NOTE: Knots and Boundaries do not exist for state provided.
+	They have been produced and are available using state=GUA for subsequent analyses and saved to your working directory '/Users/damian/Documents/GitHub/Guatemala/master'.
+Finished prepareSGP Friday March 31 11:30:53 2017 in 1.272 Seconds 
+
