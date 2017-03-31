@@ -33,12 +33,11 @@ Guatemala_Data_LONG[nchar(ID)==18, ID:=paste0("0", ID)]
 Guatemala_Data_LONG[,ACHIEVEMENT_LEVEL_ORIGINAL:=ACHIEVEMENT_LEVEL]
 Guatemala_Data_LONG[,ACHIEVEMENT_LEVEL:=NULL]
 Guatemala_Data_LONG <- SGP:::getAchievementLevel(Guatemala_Data_LONG, state="GUA")
-Guatemala_Data_LONG[GRADE=="0", ACHIEVEMENT_LEVEL:=as.character(as.numeric(ACHIEVEMENT_LEVEL_ORIGINAL)+1)]
 Guatemala_Data_LONG[GRADE=="4", ACHIEVEMENT_LEVEL:=ACHIEVEMENT_LEVEL_ORIGINAL]
-Guatemala_Data_LONG[GRADE %in% c("0", "4") & ACHIEVEMENT_LEVEL=="1", ACHIEVEMENT_LEVEL:=tmp.achievement_levels[1]]
-Guatemala_Data_LONG[GRADE %in% c("0", "4") & ACHIEVEMENT_LEVEL=="2", ACHIEVEMENT_LEVEL:=tmp.achievement_levels[2]]
-Guatemala_Data_LONG[GRADE %in% c("0", "4") & ACHIEVEMENT_LEVEL=="3", ACHIEVEMENT_LEVEL:=tmp.achievement_levels[3]]
-Guatemala_Data_LONG[GRADE %in% c("0", "4") & ACHIEVEMENT_LEVEL=="4", ACHIEVEMENT_LEVEL:=tmp.achievement_levels[4]]
+Guatemala_Data_LONG[GRADE=="4" & ACHIEVEMENT_LEVEL=="1", ACHIEVEMENT_LEVEL:=tmp.achievement_levels[1]]
+Guatemala_Data_LONG[GRADE=="4" & ACHIEVEMENT_LEVEL=="2", ACHIEVEMENT_LEVEL:=tmp.achievement_levels[2]]
+Guatemala_Data_LONG[GRADE=="4" & ACHIEVEMENT_LEVEL=="3", ACHIEVEMENT_LEVEL:=tmp.achievement_levels[3]]
+Guatemala_Data_LONG[GRADE=="4" & ACHIEVEMENT_LEVEL=="4", ACHIEVEMENT_LEVEL:=tmp.achievement_levels[4]]
 Guatemala_Data_LONG[,ACHIEVEMENT_LEVEL_ORIGINAL:=NULL]
 
 ### Invalidate Cases
