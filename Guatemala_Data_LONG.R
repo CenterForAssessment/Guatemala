@@ -40,6 +40,14 @@ Guatemala_Data_LONG[GRADE=="4" & ACHIEVEMENT_LEVEL=="3", ACHIEVEMENT_LEVEL:=tmp.
 Guatemala_Data_LONG[GRADE=="4" & ACHIEVEMENT_LEVEL=="4", ACHIEVEMENT_LEVEL:=tmp.achievement_levels[4]]
 Guatemala_Data_LONG[,ACHIEVEMENT_LEVEL_ORIGINAL:=NULL]
 
+
+### Clean up Scale Score extremes
+
+Guatemala_Data_LONG[,SCALE_SCORE_ORIGINAL:=SCALE_SCORE]
+Guatemala_Data_LONG[SCALE_SCORE < -10,SCALE_SCORE:=5]
+
+
+
 ### Invalidate Cases
 
 Guatemala_Data_LONG[is.na(SCALE_SCORE), VALID_CASE:="INVALID_CASE"]
